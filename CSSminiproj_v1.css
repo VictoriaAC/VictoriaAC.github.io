@@ -1,8 +1,10 @@
 body {
-  background-color: lightblue;
+  background-color: #b4e570; font-family:Grotesque;
 }
 
 h1 {
-  color: navy;
-  margin-left: 20px;
+  color: #64823c;
+}
+h3 {
+  color: #64823c;
 }
