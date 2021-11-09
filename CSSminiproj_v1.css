@@ -5,7 +5,7 @@ body {
 h1 {
   color: #64823c;
 }
-h3 {
+h3, h2 {
   color: #64823c;
 }
 
@@ -13,12 +13,10 @@ p {
   color: #5a2714;
 }
 
-ul {
-  background-color: #BAEC87; color: #5a2714; padding: 18px;
+ul, ol{
+  background-color: #BAEC87; color: #5a2714; background-size: auto;
 }
-ol {
-  background-color: #BAEC87; color: #5a2714; padding: 18px;
-}
+
 table {
   background-color: #BAEC87;
   border: 6pt;
