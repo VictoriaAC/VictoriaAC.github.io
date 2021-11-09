@@ -10,15 +10,15 @@ h3 {
 }
 
 p {
-  color: #5a2714
+  color: #5a2714;
 }
 
 ul {
-  background-color: #BAEC87
+  background-color: #BAEC87;
 }
 ol {
-  border: 2px solid #5a2414; background-color: #BAEC87
+  border: 2px solid #5a2414; background-color: #BAEC87;
 }
 table {
-  background-color: #BAEC87
+  background-color: #BAEC87; border-collapse: collapse;
 }
