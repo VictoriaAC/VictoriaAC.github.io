@@ -12,3 +12,10 @@ h3 {
 p {
   color: #5a2714
 }
+
+ul {
+  border: 2px solid #5a2414; background-color: #BAEC87
+}
+ol {
+  border: 2px solid #5a2414; background-color: #BAEC87
+}
