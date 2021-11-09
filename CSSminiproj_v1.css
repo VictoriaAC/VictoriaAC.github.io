@@ -10,17 +10,14 @@ h3, h2 {
 }
 
 p {
-  color: #5a2714;
+  color: #5a2714; padding: 18pt;
 }
 
 ul, ol{
-  background-color: #BAEC87; color: #5a2714; background-size: auto;
+  background-color: #BAEC87; color: #5a2714; padding: 18pt;
 }
 
 table {
   background-color: #BAEC87;
-  border: 6pt;
-  border-collapse: collapse;
-  color: #5a2714;
   padding: 8px;
 }
