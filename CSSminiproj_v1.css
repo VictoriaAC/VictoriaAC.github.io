@@ -14,11 +14,14 @@ p {
 }
 
 ul {
-  background-color: #BAEC87; color: #5a2714;
+  background-color: #BAEC87; color: #5a2714; padding: 8px;
 }
 ol {
-  background-color: #BAEC87; color: #5a2714;
+  background-color: #BAEC87; color: #5a2714; padding: 8px;
 }
 table {
-  background-color: #BAEC87; border-collapse: collapse; color: #5a2714;
+  background-color: #BAEC87;
+  border-collapse: collapse;
+  color: #5a2714;
+  padding: 8px;
 }
