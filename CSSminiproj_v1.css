@@ -14,8 +14,11 @@ p {
 }
 
 ul {
-  border: 2px solid #5a2414; background-color: #BAEC87
+  background-color: #BAEC87
 }
 ol {
   border: 2px solid #5a2414; background-color: #BAEC87
+}
+table {
+  background-color: #BAEC87
 }
