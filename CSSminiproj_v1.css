@@ -13,11 +13,11 @@ p {
   color: #5a2714; padding: 18pt;
 }
 
-ul, ol{
+.list{
   background-color: #BAEC87; color: #5a2714; padding: 18pt;
 }
 
-table {
+.table {
   background-color: #BAEC87;
   padding: 8px;
 }
