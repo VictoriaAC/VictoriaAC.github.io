@@ -1,6 +1,8 @@
 body {
-  background-color: #b4e570; font-family: Tahoma, sans-serif;
+  background-color: #b4e570; font-family: Verdana, sans-serif;
 max-width: 960px;}
+
+#intro1 {background-color: #FFA45B; color: #B9FF5B}
 
 h1 {
   color: #64823c;
