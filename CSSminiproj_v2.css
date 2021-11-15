@@ -1,5 +1,5 @@
 body {
-  background-color: #DAF7A6;
+  background-color: #581845;
   max-width: 720px;
 }
 @font-face {
@@ -15,22 +15,21 @@ body {
   font-family: 'gv._timeregular';
 }
 
-}
 h3, h2, h1 {
   color: #C70039;
-
 }
 
 p {
-  color: #581845 ;
+  color: #900C3F ;
 }
 
 .list{
   background-color: #DAF7A6;
-  color: #581845;
+  color: #900C3F;
 }
 
-.table {
+table {
+  color: #900C3F
   background-color: #CAFB73;
   padding: 18pt;
   border:solid 4px #C70039;
