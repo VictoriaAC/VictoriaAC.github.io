@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'gv._timeregular';
-    src: url('gvtimeregular-al6jg-webfont.woff2') format('woff2'),
-         url('gvtimeregular-al6jg-webfont.woff') format('woff');
+    src: url('fonts/webfontkit-gv/gvtimeregular-al6jg-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-gv/gvtimeregular-al6jg-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
