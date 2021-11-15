@@ -14,7 +14,6 @@ body {
 h3, h2, h1 {
   color: #900C3F;
 }
-
 p {
   color: #900C3F;
 }
@@ -25,8 +24,8 @@ p {
   color: #581845;
 }
 
-#heading1, #heading2 {
-  background-color: #FFCB24;
+#heading1, #heading2, #link1 {
+  background-color: #FF5733;
   font-family: verdana, sans-serif;
   margin: auto;
    border-radius: 25px;
@@ -34,26 +33,14 @@ p {
 }
 
 
-#link1 {
+
+#list1, #list2 {
   background-color: #FFCB24;
-  color: #c70039;
-  border-radius: 25px;
-  padding: 10px;
-}
-
-#list1 {
-  background-color: #FF5733;
   color: #900C3F;
    border-radius: 25px;
    padding: 10px;
 }
 
-#list2 {
-  background-color: #FF5733;
-  color: #900C3F;
-   border-radius: 25px;
-   padding: 10px;
-}
 
 .table {
   color: #FF5733;
