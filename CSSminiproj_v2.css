@@ -7,9 +7,16 @@
   }
 
 body {
-  background-color: #CAFB73;
+  background-color: 3DBFE48;
   max-width: 720px;
   font-family: verdana, sans-serif;
+}
+h3, h2, h1 {
+  color: #900C3F;
+}
+
+p {
+  color: #900C3F;
 }
 
 #Title {
@@ -25,19 +32,12 @@ body {
    border-radius: 25px;
 }
 
-h3, h2, h1 {
-  color: #900C3F;
-}
 
 #link1 {
   background-color: #FFCB24;
   color: #c70039;
   border-radius: 25px;
   padding: 10px;
-}
-
-p {
-  color: #900C3F;
 }
 
 #list1 {
