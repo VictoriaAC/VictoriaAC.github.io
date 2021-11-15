@@ -7,18 +7,21 @@
   }
 
 body {
+  margin: auto;
   background-color: #CAFB73;
 }
 
 #Title {
   font-family: 'gv._timeregular';
   color: #581845;
+  margin: auto;
 }
 
 #intro1 {
   background-color: #FFCB24;
   max-width: 720px;
   font-family: verdana, sans-serif;
+  margin: auto;
 }
 
 h3, h2, h1 {
