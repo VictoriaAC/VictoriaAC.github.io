@@ -1,8 +1,8 @@
 body {
-  background-color: #b4e570; font-family: GvTime; src: url(fonts/gv-time-font/GvTimeRegular-BW768.ttf);
+  background-color: #b4e570; font-family: verdana, sans-serif;
 max-width: 720px; padding: 18pt}
 
-#intro1 {background-color: #FFA45B; color: #FFF35B; font-family: cursive;}
+#intro1 {font-family: GvTime; src: url(/fonts/gv-time-font/GvTimeRegular-AL6Jg.otf);background-color: #FFA45B; color: #FFF35B; font-family: cursive;}
 
 h1 {
   color: #64823c;
