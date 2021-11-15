@@ -1,34 +1,30 @@
 body {
-  background-color: #b4e570;
+  background-color: #DAF7A6;
   font-family: verdana, sans-serif;
   max-width: 720px;
-  padding: 18pt}
-
-#intro1 {;background-color: #FFA45B;
-  color: #FFF35B;}
-
-h1 {
-  color: #64823c; padding: 18pt;
-  font-family: GvTime;
-  src: url(/fonts/gv-time-font/GvTimeRegular-AL6Jg.otf);
 }
-h3, h2 {
-  color: #64823c;
-  padding: 18pt;
+
+#intro1 {
+  background-color: #FFC300
+}
+
+}
+h3, h2, h1 {
+  color: #C70039;
+
 }
 
 p {
-  color: #5a2714;
+  color: #581845 ;
 }
 
 .list{
-  background-color: #BAEC87;
-  color: #5a2714;
-  padding: 18pt;
+  background-color: #DAF7A6;
+  color: #581845;
 }
 
 .table {
-  background-color: #BAEC87;
+  background-color: #CAFB73;
   padding: 18pt;
-  border:solid 4px #FFA45B;
+  border:solid 4px #C70039;
 }
