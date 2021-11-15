@@ -1,14 +1,20 @@
 body {
-  background-color: #b4e570; font-family: verdana, sans-serif;
-max-width: 720px; padding: 18pt}
+  background-color: #b4e570;
+  font-family: verdana, sans-serif;
+  max-width: 720px;
+  padding: 18pt}
 
-#intro1 {font-family: GvTime; src: url(/fonts/gv-time-font/GvTimeRegular-AL6Jg.otf);background-color: #FFA45B; color: #FFF35B;}
+#intro1 {;background-color: #FFA45B;
+  color: #FFF35B;}
 
 h1 {
-  color: #64823c;
+  color: #64823c; padding: 18pt;
+  font-family: GvTime;
+  src: url(/fonts/gv-time-font/GvTimeRegular-AL6Jg.otf);
 }
 h3, h2 {
   color: #64823c;
+  padding: 18pt;
 }
 
 p {
@@ -16,11 +22,13 @@ p {
 }
 
 .list{
-  background-color: #BAEC87; color: #5a2714; padding: 18pt;
+  background-color: #BAEC87;
+  color: #5a2714;
+  padding: 18pt;
 }
 
 .table {
   background-color: #BAEC87;
-  padding: 8px;
+  padding: 18pt;
   border:solid 4px #FFA45B;
 }
