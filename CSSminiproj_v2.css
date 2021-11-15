@@ -7,8 +7,8 @@
   }
 
 body {
-  margin: auto;
   background-color: #CAFB73;
+  max-width: 720px;
 }
 
 #Title {
@@ -19,7 +19,6 @@ body {
 
 #intro1 {
   background-color: #FFCB24;
-  max-width: 720px;
   font-family: verdana, sans-serif;
   margin: auto;
 }
@@ -27,6 +26,7 @@ body {
 h3, h2, h1 {
   color: #C70039;
 }
+
 .link {
   background-color: #FFCB24;
   color: #c70039;
@@ -37,13 +37,15 @@ p {
 }
 
 .list{
-  background-color: #DAF7A6;
+  background-color: #FF5733;
   color: #900C3F;
 }
 
-table {
-  color: #900C3F
+.table {
+  color: #900C3F;
   background-color: #CAFB73;
   padding: 18pt;
-  border:solid 4px #C70039;
+}
+th, td {
+  border: solid 4px #C70039;
 }
