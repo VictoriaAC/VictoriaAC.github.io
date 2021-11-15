@@ -7,7 +7,7 @@
   }
 
 body {
-  background-color: 3DBFE48;
+  background-color: #DBFE48;
   max-width: 720px;
   font-family: verdana, sans-serif;
 }
@@ -23,7 +23,7 @@ p {
   font-family: 'gv._timeregular';
   font-size: 80px;
   color: #581845;
-  margin: 0;
+  margin: auto;
 }
 
 #intro1 {
@@ -31,6 +31,7 @@ p {
   font-family: verdana, sans-serif;
   margin: auto;
    border-radius: 25px;
+   padding: 10px;
 }
 
 
@@ -49,14 +50,15 @@ p {
 }
 
 #list2 {
-  background-color: #FF5733;
+  background-color: #CAFB73;
   color: #900C3F;
    border-radius: 25px;
+   padding: 10px;
 }
 
 .table {
-  color: #900C3F;
-  background-color: #CAFB73;
+  color: #FF5733;
+  background-color: #FF5733;
   padding: 18pt;
    border-radius: 25px;
 }
