@@ -1,8 +1,8 @@
 body {
-  background-color: #b4e570; font-family: Verdana, sans-serif;
-max-width: 960px;}
+  background-color: #b4e570; font-family: GvTime; src: url(fonts/gv-time-font/GvTimeRegular-BW768.ttf);
+max-width: 720px; padding: 18pt}
 
-#intro1 {background-color: #FFA45B; color: #B9FF5B}
+#intro1 {background-color: #FFA45B; color: #FFF35B; font-family: cursive;}
 
 h1 {
   color: #64823c;
@@ -12,7 +12,7 @@ h3, h2 {
 }
 
 p {
-  color: #5a2714; padding: 18pt;
+  color: #5a2714;
 }
 
 .list{
@@ -22,5 +22,5 @@ p {
 .table {
   background-color: #BAEC87;
   padding: 8px;
-  border:solid 4px #FFA45B;  
+  border:solid 4px #FFA45B;
 }
