@@ -7,17 +7,26 @@
   }
 
 body {
-  background-color: #581845;
-  max-width: 720px;
+  background-color: #CAFB73;
+}
+
+#Title {
+  font-family: 'gv._timeregular';
+  color: #581845;
 }
 
 #intro1 {
-  background-color: #FFC300;
-  font-family: 'gv._timeregular';
+  background-color: #FFCB24;
+  max-width: 720px;
+  font-family: verdana, sans-serif;
 }
 
 h3, h2, h1 {
   color: #C70039;
+}
+.link {
+  background-color: #FFCB24;
+  color: #c70039;
 }
 
 p {
