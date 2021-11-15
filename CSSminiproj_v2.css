@@ -19,13 +19,13 @@ p {
   color: #900C3F;
 }
 
-#Title {
+#Title, #Cabbage {
   font-family: 'gv._timeregular';
   font-size: 80px;
   color: #581845;
 }
 
-#intro1 {
+#heading1, #heading2 {
   background-color: #FFCB24;
   font-family: verdana, sans-serif;
   margin: auto;
@@ -49,7 +49,7 @@ p {
 }
 
 #list2 {
-  background-color: #CAFB73;
+  background-color: #FF5733;
   color: #900C3F;
    border-radius: 25px;
    padding: 10px;
