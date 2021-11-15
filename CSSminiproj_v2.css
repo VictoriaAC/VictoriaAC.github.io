@@ -1,11 +1,18 @@
 body {
   background-color: #DAF7A6;
-  font-family: verdana, sans-serif;
   max-width: 720px;
+}
+@font-face {
+    font-family: 'gv._timeregular';
+    src: url('gvtimeregular-al6jg-webfont.woff2') format('woff2'),
+         url('gvtimeregular-al6jg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 #intro1 {
   background-color: #FFC300
+  font-family: 'gv._timeregular';
 }
 
 }
