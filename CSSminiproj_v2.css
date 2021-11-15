@@ -9,42 +9,52 @@
 body {
   background-color: #CAFB73;
   max-width: 720px;
+  font-family: verdana, sans-serif;
 }
 
 #Title {
   font-family: 'gv._timeregular';
   color: #581845;
-  margin: auto;
+  margin: 0;
 }
 
 #intro1 {
   background-color: #FFCB24;
   font-family: verdana, sans-serif;
   margin: auto;
+   border-radius: 25px;
 }
 
 h3, h2, h1 {
-  color: #C70039;
+  color: #900C3F;
 }
 
-.link {
+#link1 {
   background-color: #FFCB24;
   color: #c70039;
 }
 
 p {
-  color: #900C3F ;
+  color: #900C3F;
 }
 
-.list{
+#list1 {
   background-color: #FF5733;
   color: #900C3F;
+   border-radius: 25px;
+}
+
+#list2 {
+  background-color: #FF5733;
+  color: #900C3F;
+   border-radius: 25px;
 }
 
 .table {
   color: #900C3F;
   background-color: #CAFB73;
   padding: 18pt;
+   border-radius: 25px;
 }
 th, td {
   border: solid 4px #C70039;
