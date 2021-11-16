@@ -7,25 +7,25 @@
   }
 
 body {
-  background-color: #DBFE48;
+  background-color: #ECDAC6;
   max-width: 720px;
   font-family: verdana, sans-serif;
 }
 h3, h2, h1 {
-  color: #900C3F;
+  color: #40A593;
 }
 p {
-  color: #900C3F;
+  color: #007890;
 }
 
 #Title, #cabbage {
   font-family: 'gv._timeregular';
   font-size: 80px;
-  color: #581845;
+  color: #df6766;
 }
 
 #heading1, #heading2, #link1 {
-  background-color: #FF5733;
+  background-color: #f56c28;
   font-family: verdana, sans-serif;
   margin: auto;
    border-radius: 25px;
@@ -35,20 +35,20 @@ p {
 
 
 #list1, #list2 {
-  background-color: #FFCB24;
-  color: #900C3F;
+  background-color: #fc9627;
+  color: #007890;
    border-radius: 25px;
    padding: 10px;
 }
 
 
 .table {
-  color: #FF5733;
-  background-color: #FF5733;
+  color: #007890;
+  background-color: #df6766;
   padding: 18pt;
    border-radius: 25px;
 }
 th, td {
-  border: solid 4px #C70039;
-  background-color: #900C3F;
+  border: solid 4px #f56c28;
+  background-color: #df6766;
 }
