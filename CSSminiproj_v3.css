@@ -25,14 +25,20 @@ p {
   color: #df6766;
 }
 
-#heading1, #heading2, #link1 {
+#heading1, #heading2, {
   background-color: #f56c28;
   font-family: verdana, sans-serif;
   margin: auto;
    border-radius: 25px;
    padding: 10px;
+   color: #B46E90;
 }
-
+#link1 {
+  color: #B46E90;
+  margin: auto;
+  font-family: verdana, sans-serif;
+  padding: 10px;
+}
 
 
 #list1, #list2 {
