@@ -6,12 +6,6 @@
     font-style: normal;
   }
 
-.content {
-  max-width: 720px;
- margin: auto;
- padding: 10px;
-}
-
 
 #Title, #cabbage {
   font-family: 'gv._timeregular';
@@ -23,32 +17,30 @@
 #heading1, #heading2, {
   background-color: #f56c28;
   font-family: verdana, sans-serif;
-  margin: auto;
    border-radius: 25px;
    padding: 10px;
    color: #B46E90;
 }
 #link1 {
-  color: #B46E90;
+  color: #df6766;
   font-family: verdana, sans-serif;
   padding: 10px;
-  background-color: #fc9627
+  background-color: #fc9627;
   border-radius:50px;
 }
 
 
 #list1, #list2 {
    background-color: #ecdac6;
-   color: #007890;
+   color: #B46E90;
    border-radius: 25px;
    padding: 10px;
    line-height: 1.8;
-   align-self:
 }
 
 
 #table {
-  color: #B46E90;
+  color: #004f63;
   background-color: #df6766;
   padding: 18pt;
    border-radius: 25px;
@@ -61,8 +53,8 @@ th, td {
 body {
   background-color: white;
   max-width: 720px;
-  font-family: verdana, sans-serif;
-  align-content: center;
+  font-family: 'Montserrat', sans-serif;
+  margin:auto;
 }
 p {
   color: #007890;
