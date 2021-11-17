@@ -11,7 +11,12 @@
   font-family: 'gv._timeregular';
   font-size: 80px;
   color: #df6766;
+}
 
+h3.a {
+  animation: blinker 1s linear infinite;
+  font-family: 'gv._timeregular';
+  font-size: 40px;
 }
 
 #heading1, #heading2, {
@@ -21,7 +26,7 @@
    padding: 10px;
    color: #B46E90;
 }
-#link1 {
+#look {
   color: #df6766;
   font-family: verdana, sans-serif;
   padding: 10px;
