@@ -19,7 +19,6 @@ h3 {
   text-align: center;
 }
 h3.a {
-  animation: blinker 1s linear infinite;
   font-family: 'gv._timeregular';
   font-size: 40px;
   letter-spacing: 2px;
@@ -64,8 +63,7 @@ img {
 
 #table {
   color: #004f63;
-  background-color: #df6766;
-  padding: 18pt;
+  padding: 36pt;
    border-radius: 25px;
    margin-left: auto;
    margin-right: auto;
