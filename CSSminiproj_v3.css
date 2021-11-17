@@ -28,7 +28,7 @@ h3.a {
 h3.b {
   font-family: 'Montserrat', sans-serif;
   color: #fca240;
-
+  text-align: left;
 }
 
 img {
@@ -67,6 +67,8 @@ img {
   background-color: #df6766;
   padding: 18pt;
    border-radius: 25px;
+   margin-left: auto;
+   margin-right: auto;
 }
 th, td {
   border: solid 4px #fc9627;
