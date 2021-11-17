@@ -5,19 +5,13 @@
     font-weight: normal;
     font-style: normal;
   }
-
-body {
-  background-color: #ECDAC6;
+  
+.content {
   max-width: 720px;
-  font-family: verdana, sans-serif;
+ margin: auto;
+ padding: 10px;
 }
-h3, h2, h1 {
-  color: #40A593;
-}
-p {
-  color: #007890;
-  line-height: 1.8;
-}
+
 
 #Title, #cabbage {
   font-family: 'gv._timeregular';
@@ -35,9 +29,9 @@ p {
 }
 #link1 {
   color: #B46E90;
-  margin: auto;
   font-family: verdana, sans-serif;
   padding: 10px;
+  background-color: #fc9627
 }
 
 
@@ -46,16 +40,30 @@ p {
   color: #007890;
    border-radius: 25px;
    padding: 10px;
+   line-height: 1.8;
 }
 
 
-.table {
+#table {
   color: #007890;
-  background-color: #df6766;
+  background-color: #40A593;
   padding: 18pt;
    border-radius: 25px;
 }
 th, td {
-  border: solid 4px #f56c28;
-  background-color: #df6766;
+  border: solid 4px #fc9627;
+  background-color: #fc9627;
+}
+
+body {
+  background-color: #ECDAC6;
+  max-width: 720px;
+  font-family: verdana, sans-serif;
+}
+h3, h2, h1 {
+  color: #40A593;
+}
+p {
+  color: #007890;
+  line-height: 1.8;
 }
