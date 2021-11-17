@@ -77,7 +77,7 @@ body {
   background-color: white;
   max-width: 720px;
   font-family: 'Montserrat', sans-serif;
-
+  margin: auto;
 }
 p {
   color: #007890;
