@@ -68,7 +68,6 @@ img {
    border-radius: 25px;
    margin-left: auto;
    margin-right: auto;
-   tale
 }
 th, td {
   border: solid 4px #fc9627;
@@ -80,6 +79,7 @@ body {
   max-width: 720px;
   font-family: 'Montserrat', sans-serif;
   margin: auto;
+  margin-bottom: 200px;
 }
 p {
   color: #007890;
