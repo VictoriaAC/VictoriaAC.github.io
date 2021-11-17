@@ -49,6 +49,7 @@ img {
   padding: 10px;
   background-color: #fc9627;
   border-radius:25px;
+  text-align: center;
 }
 
 
@@ -82,4 +83,5 @@ body {
 p {
   color: #007890;
   line-height: 1.8;
+  text-align: center;
 }
