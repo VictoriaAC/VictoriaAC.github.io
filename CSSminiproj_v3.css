@@ -11,27 +11,39 @@
   font-family: 'gv._timeregular';
   font-size: 80px;
   color: #df6766;
+  text-align: center;
 }
 
+h3 {
+  color: #f56c28;
+  text-align: center;
+}
 h3.a {
   animation: blinker 1s linear infinite;
   font-family: 'gv._timeregular';
   font-size: 40px;
+  letter-spacing: 2px;
+}
+
+h3.b {
+  font-family: 'Montserrat', sans-serif;
+  color: #fca240;
+
 }
 
 #heading1, #heading2, {
   background-color: #f56c28;
-  font-family: verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
    border-radius: 25px;
    padding: 10px;
    color: #B46E90;
 }
 #look {
-  color: #df6766;
-  font-family: verdana, sans-serif;
+  color: #db5251;
+  font-family: 'Montserrat', sans-serif;
   padding: 10px;
   background-color: #fc9627;
-  border-radius:50px;
+  border-radius:25px;
 }
 
 
@@ -64,8 +76,4 @@ body {
 p {
   color: #007890;
   line-height: 1.8;
-}
-
-h3 {
-  color: #f56c28;
 }
