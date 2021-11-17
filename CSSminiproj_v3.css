@@ -15,13 +15,14 @@
 }
 
 h3 {
-  color: #f56c28;
+  color: #40a593;
   text-align: center;
 }
 h3.a {
   font-family: 'gv._timeregular';
   font-size: 40px;
   letter-spacing: 2px;
+  color: #f56c28;
 }
 
 h3.b {
