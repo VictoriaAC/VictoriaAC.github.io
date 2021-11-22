@@ -29,20 +29,24 @@
           <li>Wild cabbage is native to Soutern and Western Europe.</li>
           <li>Members of the Brassica genus are
             known as <a href = "https://en.wikipedia.org/wiki/Cruciferous_vegetables#List_of_cruciferous_vegetables">cruciferous vegetables.</a></li>
-          <!--add link description-->
           <li>Scott Robb from Palmer, Alaska holds the <a href = "https://www.guinnessworldrecords.com/world-records/heaviest-cabbage">world record</a> for the heaviest cabbage (138.25 lbs) and heaviest kohlrabi (96.9lbs). </li>
           </ol>
       </div> <!-- end list 2 -->
 
-      <button id="cabbage_record">Click to see the heaviest cabbage.</button>
-        <script>
-          $("#cabbage_record").click(function(){
-            $("p#WR").toggle();
-          });
-          </script>
+
 <div id="photo">
-<!--<p id='cab'> Warning: This cabbage is very large.</p>-->
-<p hidden id="WR">Scott Robb from Palmer, Alaska holds the  <a href = "https://www.guinnessworldrecords.com/world-records/heaviest-cabbage">world record</a> for the heaviest cabbage (138.25 lbs) and heaviest kohlrabi (96.9lbs). <img id='cabg' src = "https://www.guinnessworldrecords.com/assets/45660?width=780&height=497&ezimgfmt=rs:569x363/rscb1/ng:webp/ngcb1"></img></p>
+  <h3>Hover over the cabbge to learn more.</h3>
+      <img id='cabg_hover' src = "https://www.guinnessworldrecords.com/assets/45660?width=780&height=497&ezimgfmt=rs:569x363/rscb1/ng:webp/ngcb1">
+      </img>
+  <script>
+    $("img#cabg_hover").hover(function(){
+    $("p#WR").show();
+    });
+  </script>
+      <!--if i put the button in the div will it be centered??-->
+<p hidden id="WR">Scott Robb from Palmer, Alaska
+   holds the  <a href = "https://www.guinnessworldrecords.com/world-records/heaviest-cabbage">world
+      record</a> for the heaviest cabbage (138.25 lbs) and heaviest kohlrabi (96.9lbs). </p>
 </div> <!--end of photo-->
 
 
