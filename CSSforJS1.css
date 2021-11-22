@@ -70,7 +70,7 @@ img {
    border-radius: 25px;
    margin-left: auto;
    margin-right: auto;
-   margin-bottom: 200px;
+   margin-bottom: 100px;
 }
 th, td {
   border: solid 4px #fc9627;
@@ -88,4 +88,7 @@ p {
   line-height: 1.8;
   text-align: center;
   margin-bottom: 50px;
+}
+p.c {
+  color: #40a593;
 }
