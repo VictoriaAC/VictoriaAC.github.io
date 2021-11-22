@@ -103,10 +103,10 @@ body {
   margin-bottom: 50px;
 }
 #hover_p {
+  background-color: #40a593;
   font-family: 'Montserrat', sans-serif;
   color: #ecdac6;
   padding: 10px;
-  background-color: #40a593;
   border-radius:25px;
   line-height: 1.8;
   margin-bottom: 100px;
