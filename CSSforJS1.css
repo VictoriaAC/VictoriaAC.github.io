@@ -60,7 +60,15 @@ img.topcabbage {
 }
 
 
-#list1, #list2 {
+#list1 { background-color: #ecdac6;
+ color: #B46E90;
+ border-radius: 25px;
+ padding: 10px;
+ line-height: 1.8;
+ margin-bottom: 150px;
+}
+
+#list2 {
    background-color: #ecdac6;
    color: #B46E90;
    border-radius: 25px;
