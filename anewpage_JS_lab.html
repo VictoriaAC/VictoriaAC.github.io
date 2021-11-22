@@ -33,19 +33,19 @@
           <li>Scott Robb from Palmer, Alaska holds the <a href = "https://www.guinnessworldrecords.com/world-records/heaviest-cabbage">world record</a> for the heaviest cabbage (138.25 lbs) and heaviest kohlrabi (96.9lbs). </li>
           </ol>
       </div> <!-- end list 2 -->
+
 <div id="photo">
+  <h3><button id="cabbage_record">Click to see the heaviest cabbage.</button><h3>
+    <script>
+      $("#cabbage_record").click(function(){
+        $("img#cabby").toggle();
+      });
+      </script>
 
-<h3><button id="cabbage_record">Click to see another cabbage.</button><h3>
-
-
-<p id='cab'> Warning: This cabbage is very large.</p>
-<img hidden id="cabby" src = "https://www.guinnessworldrecords.com/assets/45660?width=780&height=497&ezimgfmt=rs:569x363/rscb1/ng:webp/ngcb1">
+<!--<p id='cab'> Warning: This cabbage is very large.</p>-->
+<img hidden id="cabby" src = "https://www.guinnessworldrecords.com/assets/45660?width=780&height=497&ezimgfmt=rs:569x363/rscb1/ng:webp/ngcb1"></img>
 </div> <!--end of photo-->
-<script>
-  $("#cabbage_record").click(function(){
-    $("img#cabby").toggle();
-  });
-</script>
+
 
     </body>
   </html>
