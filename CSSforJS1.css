@@ -31,11 +31,16 @@ h3.b {
   text-align: left;
 }
 
-img {
+img.topcabbage {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
+}
+img.cabg_hover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #heading1, #heading2, {
@@ -89,13 +94,12 @@ p {
   text-align: center;
   margin-bottom: 50px;
 }
-div.photo {
+p.WR {
+  font-family: 'Montserrat', sans-serif;
+  color: #ecdac6;
   padding: 10px;
   background-color: #40a593;
   border-radius:25px;
-}
-p.wr {
-  font-family: 'Montserrat', sans-serif;
-  color: #ecdac6;
   line-height: 1.8;
+  margin-bottom: 100px;
 }
