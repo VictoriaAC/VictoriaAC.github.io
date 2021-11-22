@@ -102,7 +102,7 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
-p.WR, p.divide {
+#hover_p {
   font-family: 'Montserrat', sans-serif;
   color: #ecdac6;
   padding: 10px;
@@ -110,4 +110,5 @@ p.WR, p.divide {
   border-radius:25px;
   line-height: 1.8;
   margin-bottom: 100px;
+  text-align: center;
 }
