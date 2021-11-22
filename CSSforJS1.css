@@ -5,7 +5,15 @@
     font-weight: normal;
     font-style: normal;
   }
-
+  
+  p.divide, p.WR {
+    background-color: #007890;
+    color: #ecdac6;
+    padding: 10px;
+    border-radius:25px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
 
 #Title, #cabbage {
   font-family: 'gv._timeregular';
@@ -101,12 +109,4 @@ body {
   line-height: 1.8;
   text-align: center;
   margin-bottom: 50px;
-}
-p.divide, p.WR {
-  background-color: #007890;
-  color: #ecdac6;
-  padding: 10px;
-  border-radius:25px;
-  margin-bottom: 100px;
-  text-align: center;
 }
