@@ -2,15 +2,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Anybody there?</title>
+        <title> A JS Attempt</title>
         <link href="CSSminiproj_v3.css" type="text/css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
-
     </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!--do i need to add a variable here?-->
 
-    <body>
+  <body>
 
 
 <div id="Title">
@@ -27,9 +28,15 @@
 
 
 <div id="list1">
-        <h4>...or just read some facts about me:</h4>
+        <button id="facthover">...or just read some facts about me:</button>
 
-            <ul>
+        <script>
+        $("button#facthover").hover(function(){
+          $("ul#funfacts").show();
+        }); 
+        </script>
+
+            <ul hidden id="funfacts">
                 <li>My favorite colors are lime green & chartreuse.</li>
                 <li>I had curry for dinner last night.</li>
                 <li>I just bought a new plant, a <i>Pilea peperomioides</i>.</li>
