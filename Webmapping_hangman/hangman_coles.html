@@ -26,6 +26,7 @@
           //everything here happens after letter is clicked
 
           var letter = $(e.target).text();
+          console.log("clicked on", letter);
 
         });
 
@@ -39,7 +40,7 @@
 <body>
   <div id="game">
   <p>Guess the word:</p>
-  <p><b><span id="word"></span></b>.</p>
+  <p><b><span id="word"></span></b></p>
   <p>There are <span id="guesses"></span> guesses left.</p>
   <p><i>Click on a letter below to play.</i></p>
   <p>
