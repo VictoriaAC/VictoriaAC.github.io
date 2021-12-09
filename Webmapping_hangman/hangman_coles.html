@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>HANGMAN</title>
+  <title>HANGMAN GAME</title>
   <style>
      p { font-size: 24pt;}
      #game { width: 50%; margin: auto; }
@@ -13,8 +13,8 @@
       // $(document) is the jQuery reference to the whole web page
       $(document).ready( function() {
         // put your javascript here
-        var word =   "h a n g m a n"; // the word to guess
-        var blanks = "- - - - - - -"; // this variable holds the temporary information
+        var word =   "c r o i s s a n t"; // the word to guess
+        var blanks = "- - - - - - - - -"; // this variable holds the temporary information
         var guesses = 10; // the number of guesses left
         var guessed  = []; // these are the letters that have already been guessed
         var finished = false; // change to true when the game is finished
@@ -22,7 +22,7 @@
         $("#guesses").html(guesses);
         $("#word").html(blanks);
 
-        $(".letter").click(function(e){
+        $(".letter").click(function(e) {
           //everything here happens after letter is clicked
 
           var letter = $(e.target).text();
@@ -32,10 +32,9 @@
           var count = 0;
           for (l of word) {
             if (l == letter) {
-              blanks = blanks.substring(0, count) + letter +
-              blanks.substring((count+1), blanks.length);
+              blanks = blanks.substring(0, count) + letter + blanks.substring((count+1), blanks.length);
             }
-            count = count + 1;   //counting current etter in word?
+            count = count + 1;
           }
           //update the blanks
           $("word").html(blanks);
@@ -43,14 +42,12 @@
         });//end of letter funtion
    });//end of document function
 
-
-
-
   </script>
 </head>
 <body>
   <div id="game">
-  <p>Guess the word:<b><span id="word"></span></b>.</p>
+  <p>Guess the word:</p>
+  <p><b><span id="word"></span></b></p>
   <p>There are <span id="guesses"></span> guesses left.</p>
   <p><i>Click on a letter below to play.</i></p>
   <p>
