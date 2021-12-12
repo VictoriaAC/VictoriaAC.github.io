@@ -19,6 +19,16 @@
     //add popup to object
     myDataPoint.bindPopup ("<h3>Auraria Campus Library</h3><p>Denver, Colorado<br>Information about Auraria Library.</p>");
     myArea.bindPopup ("<h3>Auraria Campus</h3>")
+
+    //lat/long on mouse click
+    var popup = L.popup();
+    funtion onMapClick(e) {
+      popup
+      .setLatLng(e.latlng)
+      .setContent("You clicked the map at "+ e.latlng.toString())
+      .openOn(map);
+    }
+    map.on('click', onMapClick);
   </script>
 
 </body>
