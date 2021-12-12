@@ -28,12 +28,13 @@
          .openOn(map);
        }
        map.on('click', onMapClick);
-       
-       console.log("The user clicked on the button!");
+       //above, wait for a click event on the map
+
 
        var buildings;
        $.getJSON("buildings.json",function(data){
        	// add GeoJSON buildings to the map
+        //should add this file into same foldr as project
        buildings = L.geoJson(data,{
                onEachFeature: function (feature, layer) {
                    layer.bindPopup("Building Type: " + feature.properties.BLDG_TYPE +
