@@ -43,7 +43,16 @@
            	}
        	}).addTo(map);
        });
-
+       var parks;
+       $.getJSON("parks_denver.json",function(data){
+        // add GeoJSON buildings to the map
+        //should add this file into same foldr as project
+       parks = L.geoJson(data,{
+               onEachFeature: function (feature, layer) {
+                   layer.bindPopup("Name: " + feature.properties.FORMAL_NAM);
+            }
+        }).addTo(map);
+       });
 
       });
   </script>
