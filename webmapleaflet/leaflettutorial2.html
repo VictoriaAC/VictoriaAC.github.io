@@ -51,7 +51,8 @@
                onEachFeature: function (feature, layer) {
                    layer.bindPopup(feature.properties.FORMAL_NAM);
             }
-        }).addTo(map);
+        })layerMenu.addOverlay(buildings, "Buildings");
+
        });
        var basemaps = { "Default Basemap:":defaultBase };
        var overlaymaps = { };
