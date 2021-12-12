@@ -38,6 +38,7 @@
        var overlaymaps = { };
        var layerMenu = L.control.layers(basemaps,overlaymaps).addTo(map);
 
+
        var buildings;
        $.getJSON("buildings.json",function(data){
        	// add GeoJSON buildings to the map
@@ -48,9 +49,10 @@
                    "<br>Building Height: " +  feature.properties.BLDG_HEIGH +
                    "<br>Ground Elevation: " + feature.properties.GROUND_ELE);
            	}
-       	}).addTo(map);
+       	})layerMenu.addOverlay(buildings, "Buildings");
       });
       //end of buildings
+
        var parks;
        $.getJSON("parks_denver.json",function(data){
        parks = L.geoJson(data,{
@@ -58,9 +60,7 @@
                    layer.bindPopup(feature.properties.FORMAL_NAM);
             }
         })
-        layerMenu.addOverlay(buildings, "Buildings");
-        //replacing .addTo(map);
-
+        layerMenu.addOverlay(parks, "Parks");  //replacing .addTo(map);
       });
       //end of parks
 
