@@ -16,9 +16,7 @@
                             [39.748473, -105.002487], [39.740283, -104.999037]],
                                 {color: 'blue', weight: 4}).addTo(map);
 
-       var basemaps = { "Default Basemap:": defaultBase };
-       var overlaymaps = { };
-       var layerMenu = L.control.layers(basemaps,overlaymaps).addTo(map);
+
 
 
        //add popup to object
@@ -36,6 +34,9 @@
        map.on('click', onMapClick);
        //above, wait for a click event on the map
 
+       var basemaps = { "Default Basemap:": defaultBase };
+       var overlaymaps = { };
+       var layerMenu = L.control.layers(basemaps,overlaymaps).addTo(map);
 
        var buildings;
        $.getJSON("buildings.json",function(data){
@@ -56,7 +57,8 @@
                onEachFeature: function (feature, layer) {
                    layer.bindPopup(feature.properties.FORMAL_NAM);
             }
-        })layerMenu.addOverlay(buildings, "Buildings");
+        })
+        layerMenu.addOverlay(buildings, "Buildings");
         //replacing .addTo(map);
 
       });
