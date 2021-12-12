@@ -42,18 +42,19 @@
                    "<br>Ground Elevation: " + feature.properties.GROUND_ELE);
            	}
        	}).addTo(map);
-       });
+      });
+      //end of buildings 
        var parks;
        $.getJSON("parks_denver.json",function(data){
-        // add GeoJSON buildings to the map
-        //should add this file into same foldr as project
        parks = L.geoJson(data,{
                onEachFeature: function (feature, layer) {
                    layer.bindPopup(feature.properties.FORMAL_NAM);
             }
         })layerMenu.addOverlay(buildings, "Buildings");
+        //replacing .addTo(map);
 
-       });
+      });
+      //end of parks
        var basemaps = { "Default Basemap:":defaultBase };
        var overlaymaps = { };
        var layerMenu = L.control.layers(basemaps,overlaymaps).addTo(map);
@@ -72,7 +73,7 @@
 </head>
 <body>
 
-  <div id="maptitle"><h1>An Auraria Campus Map Using Leflet JS</h1></div>
+  <div id="maptitle"><h1>An Auraria Campus Map Using Leflet</h1></div>
   <div id="map"></div>
 
 
