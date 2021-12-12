@@ -15,6 +15,12 @@
        var myArea = L.polygon([[39.740652, -105.010233], [39.743218, -105.011864],
                             [39.748473, -105.002487], [39.740283, -104.999037]],
                                 {color: 'blue', weight: 4}).addTo(map);
+
+       var basemaps = { "Default Basemap:": defaultBase };
+       var overlaymaps = { };
+       var layerMenu = L.control.layers(basemaps,overlaymaps).addTo(map);
+
+
        //add popup to object
        myDataPoint.bindPopup ("<h3>Auraria Campus Library</h3><p>Denver, Colorado<br>Information about Auraria Library.</p>");
        myArea.bindPopup ("<h3>Auraria Campus</h3>")
@@ -43,7 +49,7 @@
            	}
        	}).addTo(map);
       });
-      //end of buildings 
+      //end of buildings
        var parks;
        $.getJSON("parks_denver.json",function(data){
        parks = L.geoJson(data,{
@@ -55,12 +61,11 @@
 
       });
       //end of parks
-       var basemaps = { "Default Basemap:":defaultBase };
-       var overlaymaps = { };
-       var layerMenu = L.control.layers(basemaps,overlaymaps).addTo(map);
+
 
 
       });
+      //end of doc ready function
   </script>
 
   <style>
